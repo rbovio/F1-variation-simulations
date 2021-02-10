@@ -7,6 +7,7 @@ The files in this repository only simulate a single set of genetic architectures
 See parameters_simulated.xlsx for the various parameter combinations that were simulated and F1_variation_markdown.Rmd for results. 
 
 #Begin by installing Admixem
+
 Follow the instuctions on https://github.com/melop/admixem for installing Admixem
 
 #Configure input files
