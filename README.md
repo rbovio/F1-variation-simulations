@@ -16,14 +16,14 @@ Follow the instuctions on https://github.com/melop/admixem for configuring the i
 
 Admixem requires a number of input files. These include:
 
-sexualsel_unlinked_additive_esize0.1_noss_nons.txt
-naturalsel_unlinked_additive_esize0.1_noss_nons.txt
-admixsimul_unlinked_additive_esize0.1_noss_nons.txt
-phenotypes_unlinked_additive_esize0.1_noss_nons.txt
-genes_unlinked_additive_esize0.1_noss_nons.txt
-samplegens.txt
-markers.txt
-recombination_hotspots.txt
+sexualsel_unlinked_additive_esize0.1_noss_nons.txt\n
+naturalsel_unlinked_additive_esize0.1_noss_nons.txt\n
+admixsimul_unlinked_additive_esize0.1_noss_nons.txt\n
+phenotypes_unlinked_additive_esize0.1_noss_nons.txt\n
+genes_unlinked_additive_esize0.1_noss_nons.txt\n
+samplegens.txt\n
+markers.txt\n
+recombination_hotspots.txt\n
 
 The samplesgens.txt, markers.txt, and recombination_hotspots.txt files do not need to be editted between each set of simulation parameters. The remaining files with the genetic architecture and selection parameter suffixes do need to editted for each set of simulations. 
 
