@@ -1,0 +1,4 @@
+Population	Gen	Selection
+malinche	-1	1
+birchmanni	-1	1
+hyb1	-1	1

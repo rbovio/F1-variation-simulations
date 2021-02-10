@@ -1,0 +1,61 @@
+RandomSeed	=	1.1
+MarkerFile	=	markers.txt #Marker File Containing marker info.
+MarkerProbFile	=	recombination_hotspots.txt	#Recombination probabilities
+UseUniformRec	=	no	# ignore predefined breakpoints above, use uniform.
+IgnoreMarkerFreq		=	yes #Ignore marker frequencies specified in file and use 1 for pop1, 0 for pop2, this equivalent to fixed differences
+DumpNatSelProb  = Off
+GeneFile				=	genes_unlinked_additive_esize0.1_noss_nons.txt
+PhenotypeFile	= phenotypes_unlinked_additive_esize0.1_noss_nons.txt   #Phenotype File
+OutputFolder				= /scratch/user/rbovio/admixem3.0/admixem-master3.0/bin/F1_unlinked_additive_esize0.1_noss_nons
+NaturalSelection	=  naturalsel_unlinked_additive_esize0.1_noss_nons.txt  #definition of natural selection
+SexualSelection	=	sexualsel_unlinked_additive_esize0.1_noss_nons.txt
+    #only one character is allowed
+#population names:
+pop2_name =	    birchmanni  #0%
+pop2_ancestry_label =	b
+hybrid_name = hyb1  #5
+pop1_name = malinche  #100%
+pop1_ancestry_label =	 m 
+ 
+#Pop sizes
+pop1_init_size	 = 50
+pop1_size_limit	 = 50     #mal Size limit
+pop2_init_size	 = 50
+pop2_size_limit	 = 50    #birch Size Limit
+hybrid_size_limit = 50
+
+
+pop1_male_ratio = 1
+pop2_male_ratio = 0
+migration_only_first_gen = yes
+
+#migration first generation:
+#birch to hybrid
+gen0_pop2_to_hybrid = 25
+
+#mal to hybrid
+gen0_pop1_to_hybrid = 25
+
+#migration  interpopulations each gen:
+#simmetrical m=0.1 100 from 1000, only to adjacent populations, no migration to parentals
+#Pop 2
+pop2_to_pop1 = 0
+pop2_to_hybrid= 0
+
+#hybrid
+hybrid_to_pop2 = 0
+hybrid_to_pop1 = 0
+
+#pop1
+pop1_to_pop2 = 0
+pop1_to_hybrid = 0
+
+generations = 1
+avg_female_gamete	=	10
+std_female_gamete	=   3.16
+kids_per_female_func = Poisson
+samplefreq	  = 1 #sample every generation
+MarkerOutput	  = Off #On or Off
+SampleMate =  50 #random mating
+NumThreads  = 1
+samplegens      = samplegens.txt
