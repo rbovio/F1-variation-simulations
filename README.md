@@ -1,2 +1,2 @@
 # F1-variation-simulations
-simulating F1 variation under varying genetic architectures and selection parameters
+simulating F1 variation under various genetic architectures and selection parameters
